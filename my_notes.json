@@ -1,0 +1,30 @@
+{
+          "chapters": [
+            {
+              "chapterName": "Chapter 1: Network Fundamentals",
+              "topics": [
+                {
+                  "title": "Network Security Fundamentals",
+                  "content": "<h3>Common Network Devices</h3><ul><li><strong>Firewall:</strong> Controls incoming and outgoing network traffic based on security rules</li><li><strong>Router:</strong> Layer 3 device that connects different networks using IP addresses</li><li><strong>Switch:</strong> Layer 2 device that forwards data based on MAC addresses</li></ul>"
+                },
+                {
+                  "title": "OSI Model Overview",
+                  "content": "<h3>Seven Layers of OSI</h3><ol><li><span class='badge'>Layer 7</span> Application Layer</li><li><span class='badge'>Layer 6</span> Presentation Layer</li><li><span class='badge'>Layer 5</span> Session Layer</li><li><span class='badge'>Layer 4</span> Transport Layer</li></ol><p>Understanding these layers is crucial for network troubleshooting.</p>"
+                }
+              ]
+            },
+            {
+              "chapterName": "Chapter 2: Security Protocols",
+              "topics": [
+                {
+                  "title": "TCP Three-Way Handshake",
+                  "content": "<ol><li><span class='badge'>SYN</span> Client sends synchronization request</li><li><span class='badge'>SYN-ACK</span> Server acknowledges and responds</li><li><span class='badge'>ACK</span> Client confirms connection established</li></ol><p>This establishes a reliable connection between client and server.</p>"
+                },
+                {
+                  "title": "Common Ports and Protocols",
+                  "content": "<table><thead><tr><th>Port</th><th>Protocol</th><th>Purpose</th></tr></thead><tbody><tr><td>22</td><td>SSH</td><td>Secure Shell</td></tr><tr><td>80</td><td>HTTP</td><td>Web browsing</td></tr><tr><td>443</td><td>HTTPS</td><td>Secure web browsing</td></tr></tbody></table>"
+                }
+              ]
+            }
+          ]
+        }
