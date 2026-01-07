@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Security Roadmap - Exam Guide</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            border-bottom: 4px solid #667eea;
+            padding-bottom: 15px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .cert-required { background: #dc3545; color: white; }
+        .exam-needed { background: #ffc107; color: #333; }
+        .cert-box {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+        }
+        .cert-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        .exam-box {
+            background: #f0f7ff;
+            padding: 20px;
+            border-left: 5px solid #667eea;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .course-box {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 3px solid #28a745;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .price { color: #28a745; font-weight: bold; font-size: 1.1em; }
+        .link { color: #667eea; text-decoration: none; }
+        .link:hover { text-decoration: underline; }
+        .warning {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 5px solid #ffc107;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:hover { background: #f5f5f5; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>☁️ Cloud Security Career Roadmap<br>Complete Exam & Certification Guide</h1>
+        
+        <div class="warning">
+            <h3>⚠️ CRITICAL: Course Certificate ≠ Industry Certification</h3>
+            <p><strong>Two types of certificates exist:</strong></p>
+            <ul style="margin: 10px 0 0 25px;">
+                <li><strong>Course Completion:</strong> Proof you finished Udemy/Coursera. NOT recognized by employers.</li>
+                <li><strong>Industry Certification:</strong> Earned by passing official proctored exam. THIS is what employers want!</li>
+            </ul>
+            <p style="margin-top: 10px;"><strong>→ Online courses PREPARE you. You MUST take separate official exams to get certified!</strong></p>
+        </div>
+
+        <!-- PHASE 1 -->
+        <div class="cert-box">
+            <h3>Phase 1 (Months 1-3): CompTIA Security+ (SY0-701)</h3>
+            <span class="badge cert-required">✓ CERTIFICATION REQUIRED</span>
+            <span class="badge exam-needed">SEPARATE EXAM NEEDED</span>
+            
+            <p style="margin: 15px 0;"><strong>Purpose:</strong> Industry-recognized baseline security cert</p>
+            
+            <h4>STEP 1: Study Preparation</h4>
+            <div class="course-box">
+                <strong>Professor Messer (FREE - Best Option)</strong><br>
+                Type: Study videos only, NO certificate<br>
+                Cost: <span class="price">FREE</span><br>
+                Link: <a href="https://www.professormesser.com/security-plus/sy0-701/" class="link" target="_blank">professormesser.com</a>
+            </div>
+            
+            <div class="course-box">
+                <strong>Udemy - CompTIA Security+ Course</strong><br>
+                Type: Course completion cert (not industry cert)<br>
+                Cost: <span class="price">₹1,250-2,150 (sale) / ₹7,225 (regular)</span><br>
+                Link: <a href="https://www.udemy.com/topic/comptia-security/" class="link" target="_blank">udemy.com</a>
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take OFFICIAL EXAM to Get CERTIFIED</h4>
+                <p><strong>Exam Registration:</strong></p>
+                <ol style="margin: 10px 0 10px 20px;">
+                    <li>Create account: <a href="https://login.comptia.org/" class="link" target="_blank">login.comptia.org</a></li>
+                    <li>Purchase exam voucher from CompTIA</li>
+                    <li>Directed to Pearson VUE to schedule</li>
+                    <li>Choose: Test Center (in-person) OR OnVUE (online from home)</li>
+                    <li>Book date/time</li>
+                </ol>
+                
+                <p><strong>Exam Details:</strong></p>
+                <ul style="margin: 5px 0 10px 20px;">
+                    <li>Duration: 90 minutes</li>
+                    <li>Questions: 90 multiple-choice</li>
+                    <li>Passing: 750/900</li>
+                    <li>ID: Govt-issued photo ID required</li>
+                </ul>
+                
+                <p><strong>Register:</strong> <a href="https://www.pearsonvue.com/us/en/comptia.html" class="link" target="_blank">Pearson VUE - CompTIA</a></p>
+            </div>
+            
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Cost (INR)</th>
+                </tr>
+                <tr>
+                    <td>Exam Fee</td>
+                    <td class="price">₹34,340</td>
+                </tr>
+                <tr>
+                    <td>Study Time</td>
+                    <td>1-2 months</td>
+                </tr>
+                <tr>
+                    <td>Total Cost</td>
+                    <td class="price">₹34,340 (free study) to ₹43,350 (with course)</td>
+                </tr>
+                <tr>
+                    <td>Valid</td>
+                    <td>3 years</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- PHASE 2 -->
+        <div class="cert-box">
+            <h3>Phase 2 (Months 3-6): AWS Cloud Practitioner (CLF-C02)</h3>
+            <span class="badge cert-required">✓ CERTIFICATION REQUIRED</span>
+            <span class="badge exam-needed">SEPARATE EXAM NEEDED</span>
+            
+            <h4>STEP 1: Study Preparation</h4>
+            <div class="course-box">
+                <strong>Udemy - Stephane Maarek AWS CCP</strong><br>
+                Type: Course completion only<br>
+                Cost: <span class="price">₹1,275-2,125 (sale)</span><br>
+                Link: <a href="https://www.udemy.com/course/aws-certified-cloud-practitioner-new/" class="link" target="_blank">udemy.com</a>
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take OFFICIAL AWS EXAM</h4>
+                <p><strong>Registration:</strong></p>
+                <ol style="margin: 10px 0 10px 20px;">
+                    <li>Create AWS account: <a href="https://aws.training" class="link" target="_blank">aws.training</a></li>
+                    <li>Click "Schedule Exam" → CLF-C02</li>
+                    <li>Redirected to Pearson VUE</li>
+                    <li>Choose Test Center OR OnVUE Online</li>
+                    <li>Pay ₹8,500</li>
+                </ol>
+                <p><strong>Exam:</strong> 90 min, 65 questions, Pass: 700/1000</p>
+                <p><strong>Register:</strong> <a href="https://www.pearsonvue.com/us/en/aws.html" class="link" target="_blank">Pearson VUE - AWS</a></p>
+            </div>
+            
+            <table>
+                <tr><td>Exam Fee</td><td class="price">₹8,500</td></tr>
+                <tr><td>Study Time</td><td>1 month</td></tr>
+                <tr><td>Total</td><td class="price">₹9,775-10,625</td></tr>
+                <tr><td>Valid</td><td>3 years</td></tr>
+            </table>
+        </div>
+
+        <div class="cert-box">
+            <h3>Alternative: Azure Fundamentals (AZ-900)</h3>
+            <span class="badge cert-required">✓ CERTIFICATION REQUIRED</span>
+            <span class="badge exam-needed">SEPARATE EXAM NEEDED</span>
+            
+            <h4>STEP 1: Study (FREE Option)</h4>
+            <div class="course-box">
+                <strong>Microsoft Learn (FREE Official)</strong><br>
+                Cost: <span class="price">FREE</span><br>
+                Link: <a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" class="link" target="_blank">learn.microsoft.com</a>
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take OFFICIAL MICROSOFT EXAM</h4>
+                <p><strong>Registration:</strong></p>
+                <ol style="margin: 10px 0 10px 20px;">
+                    <li>Create profile: <a href="https://learn.microsoft.com" class="link" target="_blank">learn.microsoft.com</a></li>
+                    <li>Go to AZ-900 page → "Schedule with Pearson VUE"</li>
+                    <li>Choose Test Center OR OnVUE</li>
+                    <li>Pay ₹8,415</li>
+                </ol>
+                <p><strong>Exam:</strong> 60 min, 40-60 questions, Pass: 700/1000</p>
+                <p><strong>Register:</strong> <a href="https://www.pearsonvue.com/us/en/microsoft.html" class="link" target="_blank">Pearson VUE - Microsoft</a></p>
+            </div>
+            
+            <table>
+                <tr><td>Exam Fee</td><td class="price">₹8,415</td></tr>
+                <tr><td>Study Time</td><td>1 month</td></tr>
+                <tr><td>Total</td><td class="price">₹8,415 (free study)</td></tr>
+                <tr><td>Valid</td><td>No expiration</td></tr>
+            </table>
+        </div>
+
+        <!-- PHASE 3 -->
+        <div class="cert-box">
+            <h3>Phase 3 (Months 6-12): AWS Security Specialty (SCS-C02)</h3>
+            <span class="badge cert-required">✓ KEY CERTIFICATION - MUST HAVE</span>
+            <span class="badge exam-needed">SEPARATE EXAM NEEDED</span>
+            
+            <p style="margin: 15px 0;"><strong>This certification makes you hireable as Cloud Security Engineer!</strong></p>
+            
+            <h4>STEP 1: Intensive Study</h4>
+            <div class="course-box">
+                <strong>Udemy - Stephane Maarek AWS Security Specialty (BEST)</strong><br>
+                15+ hours + practice exams + hands-on labs<br>
+                Cost: <span class="price">₹1,275-2,125 (sale)</span><br>
+                Link: <a href="https://www.udemy.com/course/ultimate-aws-certified-security-specialty/" class="link" target="_blank">udemy.com</a>
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take OFFICIAL AWS SECURITY EXAM</h4>
+                <p><strong>Registration:</strong> Same as AWS CCP (through aws.training → Pearson VUE)</p>
+                <p><strong>Exam Details:</strong></p>
+                <ul style="margin: 5px 0 10px 20px;">
+                    <li>Duration: 170 minutes (2h 50min)</li>
+                    <li>Questions: 65 (scenario-based)</li>
+                    <li>Passing: 750/1000</li>
+                    <li>Difficulty: High</li>
+                </ul>
+            </div>
+            
+            <table>
+                <tr><td>Exam Fee</td><td class="price">₹25,500</td></tr>
+                <tr><td>Study Time</td><td>2-3 months</td></tr>
+                <tr><td>Total</td><td class="price">₹26,775-29,750</td></tr>
+                <tr><td>Valid</td><td>3 years</td></tr>
+            </table>
+        </div>
+
+        <div class="cert-box">
+            <h3>Alternative: Azure Security Engineer (AZ-500)</h3>
+            <span class="badge cert-required">✓ CERTIFICATION REQUIRED</span>
+            
+            <h4>STEP 1: Study (FREE)</h4>
+            <div class="course-box">
+                <strong>Microsoft Learn AZ-500 (FREE)</strong><br>
+                Cost: <span class="price">FREE</span><br>
+                Link: <a href="https://learn.microsoft.com/en-us/certifications/azure-security-engineer/" class="link" target="_blank">learn.microsoft.com</a>
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take EXAM</h4>
+                <p>Same registration as AZ-900 through Microsoft Learn → Pearson VUE</p>
+            </div>
+            
+            <table>
+                <tr><td>Exam Fee</td><td class="price">₹14,025</td></tr>
+                <tr><td>Study Time</td><td>2-3 months</td></tr>
+                <tr><td>Total</td><td class="price">₹14,025</td></tr>
+                <tr><td>Valid</td><td>1 year (renew annually)</td></tr>
+            </table>
+        </div>
+
+        <!-- PHASE 4 -->
+        <div class="cert-box">
+            <h3>Phase 4 (Months 12-18): CCSP - ISC2 (Gold Standard)</h3>
+            <span class="badge cert-required">✓ PREMIUM CERTIFICATION</span>
+            <span class="badge exam-needed">SEPARATE EXAM NEEDED</span>
+            
+            <p style="margin: 15px 0;"><strong>Prerequisites:</strong> 5 years IT (3 security, 1 cloud) OR CISSP<br>
+            <em>Can take as "Associate" if lacking experience</em></p>
+            
+            <h4>STEP 1: Study Options</h4>
+            <div class="course-box">
+                <strong>Self-Study (Budget Option)</strong><br>
+                Official ISC2 Study Guide + Practice Tests<br>
+                Cost: <span class="price">₹8,000-12,000</span>
+            </div>
+            
+            <div class="course-box">
+                <strong>Boot Camp (Fast-Track)</strong><br>
+                6-day intensive with exam voucher<br>
+                Cost: <span class="price">₹2,97,500-3,40,000</span><br>
+                Providers: Training Camp, Infosec Institute
+            </div>
+            
+            <div class="exam-box">
+                <h4>STEP 2: Take ISC2 CCSP EXAM</h4>
+                <p><strong>Registration:</strong></p>
+                <ol style="margin: 10px 0 10px 20px;">
+                    <li>Create ISC2 account: <a href="https://www.isc2.org" class="link" target="_blank">isc2.org</a></li>
+                    <li>Purchase exam voucher (₹50,915)</li>
+                    <li>Schedule with Pearson VUE</li>
+                    <li>Choose Test Center (recommended for this exam)</li>
+                </ol>
+                <p><strong>Exam:</strong> 4 hours, 125 questions, Pass: 700/1000</p>
+                <p><strong>Register:</strong> <a href="https://www.pearsonvue.com/us/en/isc2.html" class="link" target="_blank">Pearson VUE - ISC2</a></p>
+            </div>
+            
+            <table>
+                <tr><td>Exam Fee</td><td class="price">₹50,915</td></tr>
+                <tr><td>Annual Maintenance</td><td class="price">₹10,625/year</td></tr>
+                <tr><td>Study Time</td><td>3-4 months</td></tr>
+                <tr><td>Total (Self-Study)</td><td class="price">₹60,000-72,000</td></tr>
+                <tr><td>Total (Boot Camp)</td><td class="price">₹2,97,500-3,40,000</td></tr>
+                <tr><td>Valid</td><td>3 years (with annual CPEs)</td></tr>
+            </table>
+        </div>
+
+        <!-- SUMMARY -->
+        <div class="cert-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white;">💰 Investment Summary</h2>
+            
+            <table style="margin-top: 20px;">
+                <tr>
+                    <th>Path</th>
+                    <th>Duration</th>
+                    <th>Total Cost (INR)</th>
+                </tr>
+                <tr>
+                    <td><strong>Budget Path</strong><br>(Free materials + exams only)</td>
+                    <td>12-15 months</td>
+                    <td class="price">₹68,340</td>
+                </tr>
+                <tr>
+                    <td><strong>Recommended Path</strong><br>(Udemy courses + exams)</td>
+                    <td>12-18 months</td>
+                    <td class="price">₹75,000-85,000</td>
+                </tr>
+                <tr>
+                    <td><strong>Fast-Track with CCSP</strong><br>(Self-study + all exams)</td>
+                    <td>18-24 months</td>
+                    <td class="price">₹1,30,000-1,60,000</td>
+                </tr>
+                <tr>
+                    <td><strong>Premium Path</strong><br>(Boot camps)</td>
+                    <td>12-15 months</td>
+                    <td class="price">₹3,50,000-4,00,000</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="warning">
+            <h3>🎯 Key Takeaways</h3>
+            <ul style="margin: 10px 0 0 25px; line-height: 1.8;">
+                <li><strong>Online courses ≠ Certifications.</strong> Courses prepare you; exams certify you.</li>
+                <li><strong>All exams are through Pearson VUE</strong> (except some AWS through PSI).</li>
+                <li><strong>You can take exams online</strong> (OnVUE) or at test centers.</li>
+                <li><strong>ID must match registration EXACTLY</strong> - double-check spelling!</li>
+                <li><strong>AWS Security Specialty is your key</strong> to Cloud Security Engineer roles.</li>
+                <li><strong>CCSP makes you multi-cloud expert</strong> - premium salary boost.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
