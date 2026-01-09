@@ -762,6 +762,12 @@
           "title": "Crowdstrike",
           "content": "<p><span style=\"background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:13.999999999999998pt;\"><span style=\"font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"><strong>Crowdstrike:&nbsp;</strong></span><span style=\"font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">we need to look for&nbsp;</span></span><span style=\"background-color:transparent;color:#000000;font-family:'Courier New',monospace;font-size:14.5pt;\"><span style=\"font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"><strong>MotwWritten</strong></span></span><span style=\"background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:13.999999999999998pt;\"><span style=\"font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\"> to determine from where the file downloaded or the route of the file before download.</span></span></p>",
           "important": false
+        },
+        {
+          "id": "1767963662969",
+          "title": "Interaction with customer",
+          "content": "<p style=\"line-height:1.38;margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\"><span style=\"background-color:transparent;color:#000000;font-family:Arial,sans-serif;font-size:13.999999999999998pt;\"><span style=\"font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;\">On every Wednesday, we used to have a meeting with the clients about ongoing issues and status about the customer requirement apart from that whenever the sev1 alert triggers we used to call the customer using ring central if immediate response required we used to create the bridge call with client.</span></span></p>",
+          "important": true
         }
       ]
     },
