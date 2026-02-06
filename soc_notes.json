@@ -82,6 +82,41 @@
           "important": true
         }
       ]
+    },
+    {
+      "chapterName": "Module 1",
+      "topics": [
+        {
+          "id": "1770365850356",
+          "title": "what is cyber security?",
+          "content": "<p>Cyber Security or computer security, is the practice of protecting computer systems, networks, and data from theft, damage, or unauthorized access. It involves implementing measures to ensure the confidentiality, integrity, and availability of information in digital form. With the increasing reliance on technology and the internet, Cyber Security has become a critical aspect of safeguarding individuals, organizations, and governments from cyber threats.</p>",
+          "important": false
+        },
+        {
+          "id": "1770365872138",
+          "title": "HUB",
+          "content": "<p>Hub is a layer 1 device that connects two or more computers, it will broadcast the data to allthe devices connected on the network.</p>",
+          "important": false
+        },
+        {
+          "id": "1770365889472",
+          "title": "SWITCH",
+          "content": "<p>Switch is a layer 2 device which connects two or more computers, here the data will be sentto the dedicated devices by doing unicast.</p>",
+          "important": false
+        },
+        {
+          "id": "1770365909840",
+          "title": "ROUTER",
+          "content": "<p>It is a layer 3 device which connects two or more networks, it will finds the best route tosend the data from one network to another network.</p>",
+          "important": false
+        },
+        {
+          "id": "1770366008259",
+          "title": "IP ADDRESSES",
+          "content": "<p>IP address is the series of numbers that identifies each device over the internet. It is also called as logical addressing. There are 2 types of IP addresses</p><ol><li>Private IP Range<ol><li>10.0.0.0 – 10.255.255.255</li><li>172.16.0.0 - 172.31.255.255</li><li>192.168.0.0 – 192.168.255.255</li></ol></li><li>Public IP Range<ol><li>1.0.0.0 – 126.255.255.255 </li><li>128.0.0.0 – 191.255.255.255 </li><li>192.0.0.0 – 223.255.255.255 </li><li>224.0.0.0 – 239.255.255.255 = for multi casting </li><li>240.0.0.0 – 255.255.255.255 = reserved for experiment/ research</li></ol></li></ol>",
+          "important": false
+        }
+      ]
     }
   ]
 }
