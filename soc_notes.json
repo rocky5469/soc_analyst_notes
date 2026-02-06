@@ -115,6 +115,48 @@
           "title": "IP ADDRESSES",
           "content": "<p>IP address is the series of numbers that identifies each device over the internet. It is also called as logical addressing. There are 2 types of IP addresses</p><ol><li>Private IP Range<ol><li>10.0.0.0 – 10.255.255.255</li><li>172.16.0.0 - 172.31.255.255</li><li>192.168.0.0 – 192.168.255.255</li></ol></li><li>Public IP Range<ol><li>1.0.0.0 – 126.255.255.255 </li><li>128.0.0.0 – 191.255.255.255 </li><li>192.0.0.0 – 223.255.255.255 </li><li>224.0.0.0 – 239.255.255.255 = for multi casting </li><li>240.0.0.0 – 255.255.255.255 = reserved for experiment/ research</li></ol></li></ol>",
           "important": false
+        },
+        {
+          "id": "1770366101322",
+          "title": "NAT",
+          "content": "<p>NAT stands for NETWORK ADDRESS TRANSLATION. It converts the private IP to public IP andvice-versa.</p>",
+          "important": false
+        },
+        {
+          "id": "1770366120172",
+          "title": "PAT",
+          "content": "<p>PAT stands for PORT ADDRESS TRANSLATION. It maps multiple devices on a LAN to single public IP address.</p>",
+          "important": false
+        },
+        {
+          "id": "1770366175912",
+          "title": "PORT NUMBER",
+          "content": "<p>It is the communication end points. It is the logical address of each application. Port number is 16 bits. There are total 0- 65,535 port numbers available.&nbsp;</p><ul style=\"list-style-type:disc;\"><li>0 – 1023 = well known port numbers for prominent companies. </li><li>1024 – 49151 = Those who want to register specific ports, can chose from this. </li><li>49152 – 65535 = Dynamic ports, available for anyone to choose.</li></ul>",
+          "important": false
+        },
+        {
+          "id": "1770366401645",
+          "title": "DIFF BETWEEN TCP AND UDP",
+          "content": "<figure class=\"table\"><table><tbody><tr><td>TCP</td><td>UDP</td></tr><tr><td>Transmission control protocol</td><td>User datagram protocol</td></tr><tr><td>connection oriented</td><td>Not a connection oriented</td></tr><tr><td>Acknowledge for each packet transmitted</td><td>No acknowledgement</td></tr><tr><td>Failed packets are re-transmitted</td><td>No re-transmittion</td></tr><tr><td>Guaranteed delivery</td><td>Best effort delivery</td></tr><tr><td>Successful delivery of the data to the destination be successful so it is reliable</td><td>6. Data delivery may not so it is not reliable.</td></tr><tr><td>TCP is slower (EX:HTTP, HTTPS, SMTP)</td><td>UDP is faster (EX:Streaming videos, Online games, VOIP Calls)</td></tr></tbody></table></figure>",
+          "important": true
+        },
+        {
+          "id": "1770366476092",
+          "title": "3-WAY HANDSHAKE METHOD",
+          "content": "<p>A 3-way handshake is a method in a TCP/IP network to create a connection between two hosts.&nbsp;</p><p>It is a 3-step process that requires both the client and server to exchange SYNand ACK before actual data communication begins.&nbsp;</p><ul><li>A client node sends a SYN data packet to a server it wants to communicate to.The objective of this packet is to ask if the server is ready to open for new connections. </li><li>If the server is willing to communicate to the client (if the port is open) it responds with an ACK packet. It also expresses its intention of talking back to the client with itsSYN packet. Together it is SYN/ACK&nbsp;</li><li><p>The client node responds with an ACK for the servers SYN.&nbsp;</p><p>Upon completion of this process, the connection is created and the host and server cancommunicate.</p></li></ul>",
+          "important": false
+        },
+        {
+          "id": "1770366583108",
+          "title": "TCP/IP Packet structure",
+          "content": "<p>A packet has 3 main sections&nbsp;</p><ul><li>IP header </li><li>TCP header&nbsp;</li><li><p>Payload&nbsp;</p><p>In this few of the important fields in the packets are <strong>Source IP, Destination IP, Source Port, Destination Port, TCP Flags, Data.</strong></p></li></ul><p>&nbsp;</p><p>&nbsp;</p>",
+          "important": true
+        },
+        {
+          "id": "1770366676260",
+          "title": "FLAGS USED IN TCP CONNECTION",
+          "content": "<p><strong>Flags</strong> :- <strong>Flags helps to identify the status of the communication</strong>.&nbsp;</p><ol><li><strong>SYN</strong>: it is used in first step of connection establishment phase or 3-way handshakeprocess b/w the two hosts. </li><li><strong>ACK</strong>: it is used to acknowledge packet which are successful received by the host. </li><li><strong>FIN</strong>: it is used to request for connection termination. </li><li><strong>RST</strong>: it is used to terminate the connection if the RST sender feels something is wrongwith the TCP connection or that the conversation should not exist. </li><li><strong>PUSH</strong>: It is used to indicate that the receiving device should deliver the data tothe receiving application as soon as possible, rather than buffering it. </li><li><strong>URG</strong>: It is used to notify the receiver to process the urgent packets beforeprocessing all other packets.</li></ol>",
+          "important": false
         }
       ]
     }
