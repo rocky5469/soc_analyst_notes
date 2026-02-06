@@ -243,6 +243,95 @@
           "important": true
         }
       ]
+    },
+    {
+      "chapterName": "module 2",
+      "topics": [
+        {
+          "id": "1770387743125",
+          "title": "CIA TRAID",
+          "content": "<p class=\"p1\">Confidentiality, Integrity and Availability, also known as CIA Triad. It is a model designed to guide policies for information security with an organization<span class=\"s1\">.</span></p><p class=\"p1\">&nbsp;</p><p class=\"p1\"><strong>CONFIDENTIALITY</strong></p><p class=\"p1\">Confidentiality means that only authorized peoples can access the sensitive information of an organization. This can be achieved with the help of encryption and implementation of access control.</p><p class=\"p1\"><strong>INTEGRITY</strong></p><p class=\"p1\">Ensuring the data is not modified either in transit or at storage. Even if it is modified only authorized persons can do it. This can be achieved with the help of Hashing.</p><p class=\"p1\"><strong>AVAILABILITY</strong></p><p class=\"p1\">Ensuring the systems and data readily available to it’s users. This can be achieved with the help of Redundancy, Backups and Load balancers.</p>",
+          "important": true
+        },
+        {
+          "id": "1770387896986",
+          "title": "ENCRYPTION",
+          "content": "<p class=\"p1\">It is a process of encoding the information in such a way that only authorized parties can only understanding it. the encryption it is done by sharing keys. And Encryption is used to ensure the confidentiality of the data. And it is two way process i.e. we can get the data back by decryption.</p><p class=\"p1\"><strong>TYPES OF ENCRYPTION</strong></p><p class=\"p1\"><span class=\"s1\">1)</span><span class=\"s2\"><strong> </strong></span><strong>Symmetric</strong>: Same key is used for encryption and decryption. (Shared key for both)</p><p class=\"p1\"><span class=\"s1\">2)</span><span class=\"s2\"><strong> </strong></span><strong>Asymmetric</strong>: Different Key is used for encryption and decryption. (Public key for encryption and Private key for decryption)</p>",
+          "important": false
+        },
+        {
+          "id": "1770387944176",
+          "title": "HASHING",
+          "content": "<p class=\"p1\">It is a process of transformation of a string of characters into a fixed length of value or key. That represents the original string. Hashing is a one-way process i.e. we cannot get the data back from hash value. Hashing is used to ensure the integrity of the data.</p><p class=\"p1\">&nbsp;</p><p class=\"p1\">Example: <i>MD5, SHA1, SHA256</i></p>",
+          "important": false
+        },
+        {
+          "id": "1770387974975",
+          "title": "VULNERABILIRTY",
+          "content": "<p class=\"p1\">It is a weakness or gaps in a security program that can be exploited by threats to gain the unauthorized access to an asset<span class=\"s1\">.</span></p><p class=\"p1\"><i>Example</i>: Unpatched software and weak passwords.</p>",
+          "important": false
+        },
+        {
+          "id": "1770387995500",
+          "title": "THREAT",
+          "content": "<p class=\"p1\">Anything that can be exploit a vulnerability, intentionally or accidentally to obtain damage or destroy an asset.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388028400",
+          "title": "RISK",
+          "content": "<p class=\"p1\">A potential for loss or damage which can occur when the vulnerability gets exploited.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388048450",
+          "title": "EXPLOIT",
+          "content": "<p class=\"p1\">It is a tool or a technique that takes the advantage of vulnerability to carry out the cyber-attack.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388114078",
+          "title": "ZERO TRUST MODEL",
+          "content": "<p class=\"p2\">It is an IT security model that requires strict identity verification for every<span class=\"s5\"> </span>person and devicetrying to access resources on private network, regardless they are sitting within or outside of the network perimeter.</p><p class=\"p3\"><strong>Few</strong><span class=\"s6\"><strong> </strong></span><strong>principles</strong><span class=\"s6\"><strong> </strong></span><strong>of</strong><span class=\"s6\"><strong> </strong></span><strong>zero</strong><span class=\"s7\"><strong> </strong></span><strong>trust</strong><span class=\"s7\"><strong> </strong></span><strong>model</strong><span class=\"s6\"><strong> </strong></span><span class=\"s7\"><strong>are:</strong></span></p><ul class=\"ul1\"><li class=\"li4\">Assume<span class=\"s8\"> </span>there<span class=\"s9\"> </span>are<span class=\"s6\"> </span>attackers<span class=\"s10\"> </span>both<span class=\"s11\"> </span>inside<span class=\"s6\"> </span>and<span class=\"s9\"> </span>outside<span class=\"s11\"> </span>the<span class=\"s6\"> </span><span class=\"s10\">network.</span></li><li class=\"li5\">Concept<span class=\"s9\"> </span>of<span class=\"s6\"> </span>least<span class=\"s7\"> </span>privilege<span class=\"s7\"> </span><span class=\"s10\">access.</span></li><li class=\"li5\">Use<span class=\"s11\"> </span>multi<span class=\"s8\"> </span>factor<span class=\"s11\"> </span>authentication<span class=\"s9\"> </span>whenever<span class=\"s6\"> </span><span class=\"s10\">possible.</span></li></ul>",
+          "important": false
+        },
+        {
+          "id": "1770388136388",
+          "title": "TYPES OF TRAFFICS",
+          "content": "<p class=\"p2\"><span class=\"s1\"><strong>INBOUND</strong></span><span class=\"s2\"><strong> </strong></span><span class=\"s1\"><strong>TRAFFIC</strong></span><strong>:</strong><span class=\"s5\"><strong> </strong></span>The<span class=\"s6\"> </span>traffic<span class=\"s7\"> </span>generates<span class=\"s7\"> </span>outside<span class=\"s7\"> </span>of<span class=\"s8\"> </span>the<span class=\"s7\"> </span>organization<span class=\"s8\"> </span>and<span class=\"s8\"> </span>it<span class=\"s7\"> </span>is connected tointernal system is called inbound traffic.</p><p class=\"p3\"><span class=\"s1\"><strong>OUTBOUND</strong></span><span class=\"s9\"><strong> </strong></span><span class=\"s1\"><strong>TRAFFIC</strong></span><span class=\"s2\"><strong> </strong></span><span class=\"s1\"><strong>:</strong></span><span class=\"s10\"><strong> </strong></span>the<span class=\"s11\"> </span>traffic<span class=\"s7\"> </span>initiates<span class=\"s7\"> </span>from<span class=\"s6\"> </span>the<span class=\"s11\"> </span>internal<span class=\"s12\"> </span>IP<span class=\"s7\"> </span>and<span class=\"s13\"> </span>trying<span class=\"s8\"> </span>to reach outthrough external IP in the internet.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388171738",
+          "title": "ESS",
+          "content": "<p class=\"p1\">It is defined as dedicated security solution adapted by organization monitor the incoming and outgoing<span class=\"s1\"> </span>mails for various threats<span class=\"s1\"> </span>such as spam phishing<span class=\"s2\"> </span>and<span class=\"s3\"> </span>malware<span class=\"s4\"> </span>it<span class=\"s5\"> </span>worksby<span class=\"s1\"> </span>identifying<span class=\"s1\"> </span>the<span class=\"s1\"> </span>sender<span class=\"s1\"> </span>email<span class=\"s1\"> </span>address<span class=\"s1\"> </span>scanning the content of grammatical mistakes, samesubject line, urgency in mail, url in the body and scanning the attachment associated in the mail.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388198756",
+          "title": "DEFENSE IN DEPTH (DID)",
+          "content": "<p class=\"p1\">It<span class=\"s1\"> </span>is<span class=\"s2\"> </span>the<span class=\"s1\"> </span>layered<span class=\"s1\"> </span>security<span class=\"s2\"> </span>approach,<span class=\"s1\"> </span>which<span class=\"s2\"> </span>helps<span class=\"s2\"> </span>to<span class=\"s2\"> </span>secure<span class=\"s1\"> </span>the<span class=\"s1\"> </span>tangible<span class=\"s1\"> </span>and in tangible assets of an organization.</p><p class=\"p2\">This<span class=\"s2\"> </span>method<span class=\"s1\"> </span>allows<span class=\"s2\"> </span>defense<span class=\"s1\"> </span>team<span class=\"s3\"> </span>to<span class=\"s2\"> </span>identify<span class=\"s2\"> </span>the<span class=\"s2\"> </span>cyber-attack,<span class=\"s1\"> </span>as<span class=\"s2\"> </span>this approach extends time taken for attack.</p>",
+          "important": false
+        },
+        {
+          "id": "1770388222469",
+          "title": "SYSTEM HARDENING:",
+          "content": "<p class=\"p1\">System<span class=\"s1\"> </span>hardening<span class=\"s2\"> </span>is<span class=\"s3\"> </span>the<span class=\"s3\"> </span>process<span class=\"s1\"> </span>of<span class=\"s1\"> </span>securing<span class=\"s3\"> </span>a<span class=\"s3\"> </span>system<span class=\"s2\"> </span>by<span class=\"s3\"> </span>reducing<span class=\"s3\"> </span>the<span class=\"s1\"> </span>attack <span class=\"s1\">surface.</span></p><p class=\"p2\">Few<span class=\"s2\"> </span>things<span class=\"s4\"> </span>on<span class=\"s2\"> </span>the<span class=\"s5\"> </span>system<span class=\"s4\"> </span>hardening<span class=\"s4\"> </span>checklist<span class=\"s3\"> </span><span class=\"s1\">includes:</span></p><ul class=\"ul1\"><li class=\"li3\">Changing<span class=\"s6\"> </span>the<span class=\"s4\"> </span>default<span class=\"s4\"> </span>user<span class=\"s4\"> </span><span class=\"s1\">credentials.</span></li><li class=\"li4\">Closing<span class=\"s5\"> </span>all<span class=\"s5\"> </span>unused<span class=\"s4\"> </span><span class=\"s1\">ports.</span></li><li class=\"li4\">Stopping<span class=\"s7\"> </span>all<span class=\"s6\"> </span>unused<span class=\"s3\"> </span><span class=\"s1\">services.</span></li><li class=\"li5\">Install<span class=\"s6\"> </span>updates<span class=\"s4\"> </span>and<span class=\"s3\"> </span><span class=\"s1\">patches.</span></li><li class=\"li4\">Implement<span class=\"s5\"> </span>Access<span class=\"s5\"> </span><span class=\"s1\">Control.</span></li><li class=\"li4\">Install<span class=\"s4\"> </span>Antivirus<span class=\"s3\"> </span>and<span class=\"s2\"> </span>keep<span class=\"s4\"> </span>the<span class=\"s3\"> </span>signatures<span class=\"s2\"> </span>up<span class=\"s5\"> </span>to<span class=\"s3\"> </span><span class=\"s1\">date.</span></li></ul>",
+          "important": false
+        },
+        {
+          "id": "1770388246591",
+          "title": "TYPES OF HACKERS",
+          "content": "<ol class=\"ol1\"><li class=\"li1\"><strong>White</strong><span class=\"s1\"><strong> </strong></span><strong>hat</strong><span class=\"s1\"><strong> </strong></span><strong>hackers:</strong><span class=\"s2\"><strong> </strong></span>They<span class=\"s2\"> </span>are<span class=\"s2\"> </span>authorized<span class=\"s2\"> </span>hackers,<span class=\"s2\"> </span>who<span class=\"s1\"> </span>work<span class=\"s1\"> </span>for<span class=\"s2\"> </span>the govt. and organizations by performing penetration testing and identifying loopholes in their cyber security.</li><li class=\"li1\"><strong>Black</strong><span class=\"s2\"><strong> </strong></span><strong>hat</strong><span class=\"s2\"><strong> </strong></span><strong>hackers:</strong><span class=\"s1\"><strong> </strong></span>These<span class=\"s2\"> </span>are<span class=\"s2\"> </span>hackers,<span class=\"s2\"> </span>who<span class=\"s1\"> </span>hack<span class=\"s2\"> </span>for<span class=\"s1\"> </span>malicious intentions, like financial gain.</li><li class=\"li1\"><strong>Grey</strong><span class=\"s2\"><strong> </strong></span><strong>hat</strong><span class=\"s1\"><strong> </strong></span><strong>hackers:</strong><span class=\"s1\"><strong> </strong></span>They<span class=\"s2\"> </span>are<span class=\"s2\"> </span>not<span class=\"s1\"> </span>legally<span class=\"s1\"> </span>authorized<span class=\"s2\"> </span>hackers<span class=\"s1\"> </span>they<span class=\"s1\"> </span>work with good and bad intentions; they can use their skills for personal <span class=\"s1\">gain.</span></li></ol>",
+          "important": false
+        },
+        {
+          "id": "1770388268194",
+          "title": "WIRESHARKS",
+          "content": "<p class=\"p1\">Wireshark<span class=\"s1\"> </span>is<span class=\"s1\"> </span>the<span class=\"s1\"> </span>free<span class=\"s2\"> </span>and<span class=\"s2\"> </span>open<span class=\"s2\"> </span>source<span class=\"s1\"> </span>packet<span class=\"s1\"> </span>analyzer.<span class=\"s1\"> </span>It<span class=\"s1\"> </span>is<span class=\"s1\"> </span>used<span class=\"s2\"> </span>for network troubleshooting, analysis, software and communication protocol development and education.</p>",
+          "important": false
+        }
+      ]
     }
   ]
 }
